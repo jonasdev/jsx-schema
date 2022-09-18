@@ -12,7 +12,7 @@ Read more about schema here https://schema.org/
         <div className="App">
           <h1>Title of Product</h1>
           <JSXSchema
-            type="Product title"
+            type="Product"
             name="Name"
     	    sku={new Date().getTime()}
     	    description="Lorem ipsum..."
