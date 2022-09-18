@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.JSXSchema = void 0;
+exports["default"] = JSXSchema;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -15,7 +15,7 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var JSXSchema = function JSXSchema(props) {
+function JSXSchema(props) {
   if (Object.keys(props).length === 0) return null;
 
   var context = _objectSpread({
@@ -29,6 +29,6 @@ var JSXSchema = function JSXSchema(props) {
       __html: schema
     }
   });
-};
+}
 
-exports.JSXSchema = JSXSchema;
+;
