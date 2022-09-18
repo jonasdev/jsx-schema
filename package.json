@@ -1,0 +1,31 @@
+{
+  "name": "jsx-schema",
+  "version": "1.0.0",
+  "description": "Add Schema to your React app",
+  "main": "index.js",
+  "homepage": "https://github.com/jonaskkristensen/jsx-schema",
+  "license": "MIT",
+  "author": "Jonas K",
+  "keywords": [
+    "react",
+    "schema"
+  ],
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@babel/preset-react": "^7.18.6",
+    "prop-types": "^15.6.0",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
