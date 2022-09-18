@@ -1,6 +1,6 @@
 {
   "name": "jsx-schema",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add Schema to your React app",
   "main": "index.js",
   "homepage": "https://github.com/jonasdev/jsx-schema",
