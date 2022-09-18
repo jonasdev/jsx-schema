@@ -1,6 +1,6 @@
 import React from "react";
 
-export const JSXSchema = (props) => {
+export default function JSXSchema(props) {
   if (Object.keys(props).length === 0) return null;
 
   const context = {

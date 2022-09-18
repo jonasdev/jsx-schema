@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Add Schema to your React app",
   "main": "index.js",
-  "homepage": "https://github.com/jonaskkristensen/jsx-schema",
+  "homepage": "https://github.com/jonasdev/jsx-schema",
   "license": "MIT",
   "author": "Jonas K",
   "keywords": [
