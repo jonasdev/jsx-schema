@@ -1,3 +1,4 @@
+
 # Add Schema to your React application
 
 Help Search Engines with structured data on your pages made with React.
@@ -5,29 +6,29 @@ Read more about schema here https://schema.org/
 
 # How to use it
 
-    import JSXSchema from  "jsx-schema";
+    import JSXSchema from "jsx-schema";
 
-    export  default  function  App() {
+    export default function App() {
       return (
         <div className="App">
           <h1>Title of Product</h1>
           <JSXSchema
             type="Product"
-            name="Name"
-    	    sku={new Date().getTime()}
-    	    description="Lorem ipsum..."
-    	    offers={{
-    		  type: "Offer",
-    	      price: 10,
-    	      priceCurrency: "USD",
-    	      availability: "In stock"
-    	    }}
-    	    aggregateRating={{
-    	      type: "AggregateRating",
-    	      ratingValue: "4.8",
-    	      reviewCount: "11"
-    	    }}
-    	  />
+            name="Name of product"
+    	sku="12345678"
+    	description="Lorem ipsum..."
+    	offers={{
+    	  type: "Offer",
+    	  price: 10,
+    	  priceCurrency: "USD",
+    	  availability: "In stock"
+    	}}
+    	aggregateRating={{
+    	  type: "AggregateRating",
+    	  ratingValue: "4.8",
+    	  reviewCount: "11"
+    	}}
+          />
         </div>
       );
     }
